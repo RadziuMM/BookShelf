@@ -1,8 +1,9 @@
-# OS files 
+node_modules
 *.DS_Store
 *.idea
 
 # Project files
 node_modules
-frontend/dist/*
-!frontend/dist/.gitkeep
+dist/*
+!dist/.gitkeep
+!dist/index.html

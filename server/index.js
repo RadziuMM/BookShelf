@@ -1,5 +1,6 @@
 const express = require("express");
-
+const path = require('path');
+const serveStatic = require('serve-static');
 const booksJson = require("./mocks/books.json");
 const authorsJson = require("./mocks/authors.json");
 
@@ -9,6 +10,10 @@ const port = process.env.PORT || 3000;
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   next();
+});
+app.use(express.static("dist"));
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname,'../dist/index.html'));
 });
 
 app.get("/books", (req, res) => {
