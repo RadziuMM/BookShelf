@@ -8,7 +8,7 @@ export default function loadData(fetchB) {
   //fetch data from api
 
   axios
-    .get("http://localhost:3000/books")
+    .get("https://bookshelf0.herokuapp.com/books")
     .then((res) => {
       books = res.data.books;
       for (let i = 0; i < books.length; i += 1) {
@@ -17,7 +17,7 @@ export default function loadData(fetchB) {
     })
     .then(() => {
       axios
-        .get("http://localhost:3000/authors")
+        .get("https://bookshelf0.herokuapp.com/authors")
         .then((res) => {
           authors = res.data.authors;
           books.forEach((Element) => {
