@@ -1,0 +1,55 @@
+#bio {
+  background-color: white;
+  position: fixed;
+  width: 500px;
+  max-width: 75vw;
+  padding: 1vw;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  border: 1px $_1color solid;
+  display: none;
+  z-index: 100;
+  text-align: left;
+  & > a {
+    @include font__a18;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s;
+    &:hover{
+        color: $_1color;
+    }
+    & > div > i {
+      color: $_1color;
+    }
+  }
+  & > #close {
+    @include font__r14;
+    float: right;
+    color: $_2color;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover{
+        color: $_1color;
+    }
+    & > i {
+      font-size: 20px;
+    }
+  }
+  & > .about {
+    @include font__r14;
+    margin-top: 15px;
+  }
+}
+#bioOverlay {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 99;
+  opacity: 0.8;
+}

@@ -1,0 +1,95 @@
+#bookshelf {
+  margin-top: 2vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  & > .book {
+    width: 360px;
+    height: 240px;
+    border: 1px solid $_1color;
+    text-align: left;
+    transition: ease-in-out 0.2s;
+    margin: 0px;
+    margin-top: 0px;
+    transform: scale(0.7);
+    @media (min-width: 1024px) {
+      margin: 16px;
+      margin-top: 30px;
+      transform: scale(1);
+    }
+    &:hover {
+      -webkit-box-shadow: 0px 0px 13px 8px rgba(38, 38, 38, 0.5);
+      box-shadow: 0px 0px 13px 8px rgba(38, 38, 38, 0.5);
+      transform: scale(0.71);
+      @media (min-width: 1024px) {
+        transform: scale(1.01);
+      }
+    }
+    & > .bTags {
+      position: absolute;
+      margin-top: 210px;
+      margin-left: 1vw;
+      & > .tag {
+        @include rounded;
+        @include font__r12;
+        color: white;
+        background-color: $_4color;
+        text-align: center;
+      }
+    }
+    & > .bTitle {
+      @include font__a18;
+      margin: 10px;
+    }
+    & > .bDescription {
+      @include font__r14;
+      position: relative;
+      padding: 10px;
+      height: 20px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    & > .bPrice {
+      @include rounded;
+      @include font__r16;
+      margin-left: 280px;
+      background-color: $_3color;
+      color: white;
+      transform: translate(0, -50%);
+    }
+    & > .bAuthor {
+      @include font__r18;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: 0.5s ease-in-out;
+      &:hover {
+        color: $_2color;
+        & > i {
+          animation: rotation 2s infinite;
+          @keyframes rotation {
+            0% {
+              transform: scaleX(1);
+            }
+            50% {
+              transform: scaleX(-1);
+            }
+            100% {
+              transform: scaleX(1);
+            }
+          }
+        }
+      }
+      & > i {
+        color: $_2color;
+        font-size: 20px;
+        margin-left: 2%;
+      }
+    }
+  }
+}

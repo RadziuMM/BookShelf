@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+$_1color: #8ecae6;
+$_2color: #219ebc;
+$_3color: #023047;
+$_4color: #fb8500;
+
+@mixin rounded {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
+@mixin rL {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+@mixin font__r24 {
+    @include rL;
+    font-size: 24px;
+}
+@mixin font__r18 {
+    @include rL;
+    font-size: 18px;
+    
+}
+@mixin font__r16 {
+    @include rL;
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+@mixin font__r14 {
+    @include rL;
+    font-size: 14px;
+}
+@mixin font__r12 {
+    @include rL;
+    font-weight: normal;
+    font-size: 12px;
+    
+}
+@mixin font__a18 {
+    font-family: "Architects Daughter", cursive;
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+}

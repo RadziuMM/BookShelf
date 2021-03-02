@@ -1,0 +1,46 @@
+{
+  "authors": [
+    {
+      "id": "a1",
+      "name": "Kyle",
+      "surname": "Simpson",
+      "bio": "Kyle Simpson is Director of Web Futures at Getify Solutions, where he envisions and evangelizes what’s next for Open Web technologies, especially JS. He writes, speaks, teaches, and codes OSS. Developers have watched over 700,000 hours of Kyle’s courses here on Frontend Masters!",
+      "twitterUrl": "https://twitter.com/getify"
+    },
+    {
+      "id": "a2",
+      "name": "Heydon",
+      "surname": "Pickering",
+      "bio": "Heydon Pickering has worked with The Paciello Group, The BBC, Smashing Magazine, and Bulb Energy as a designer, engineer, writer, editor, and illustrator. He was shortlisted for Designer Of The Year in The Net Awards. Heydon previously wrote Inclusive Design Patterns which sold over 10,000 copies. Proceeds from this title were donated to the ACLU and The Democratic Socialists Of America, to help these organizations fight fascism and create a more inclusive society.",
+      "twitterUrl": "https://twitter.com/heydonworks"
+    },
+    {
+      "id": "a3",
+      "name": "Sarah",
+      "surname": "Drasner",
+      "bio": "Sarah Drasner is an award-winning Speaker, VP of Developer Experience at Netlify, Vue core team member, and Staff Writer at CSS-Tricks. Sarah is formerly Principal Lead of Emerging Markets, Cloud Advocates at Microsoft and Manager of UX & Engineering at Trulia/Zillow Group. She’s the author of SVG Animations from O’Reilly and has given Frontend Masters workshops. Sarah is a co-organizer of ConcatenateConf, a free conference for Nigerian and Kenyan developers. Sarah is also the co-founder of Web Animation Workshops, with Val Head. She has worked for 15 years as a web developer, and at points worked as a Scientific Illustrator and a Professor in the Greek Islands.",
+      "twitterUrl": "https://twitter.com/sarah_edo"
+    },
+    {
+      "id": "a4",
+      "name": "Lea",
+      "surname": "Verou",
+      "bio": "Lea Verou is a front end web developer, speaker and author, originally from Lesbos, Greece. Verou is currently a Research Assistant at MIT CSAIL, in David Karger’s Haystack group and an Invited Expert in the W3C CSS Working Group.",
+      "twitterUrl": "https://twitter.com/LeaVerou"
+    },
+    {
+      "id": "a5",
+      "name": "Marijn",
+      "surname": "Haverbeke",
+      "bio": "Marijn Haverbeke is a programming language enthusiast and polyglot. He's worked on a wide range of software systems, from databases to compilers to editors. He runs a small business around his open source projects.",
+      "twitterUrl": "https://twitter.com/MarijnJH"
+    },
+    {
+      "id": "a6",
+      "name": "Michael",
+      "surname": "Geers",
+      "bio": "Michael Geers is a software developer specializing in building user interfaces.",
+      "twitterUrl": "https://twitter.com/neuland"
+    }
+  ]
+}
