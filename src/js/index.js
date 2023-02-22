@@ -86,7 +86,7 @@ const genHTML = () => {
   </div>
   <div id="bookshelf"></div>
   <div id="bioOverlay"></div>
-  <div id="bio"></div>
+  <div id="bio"></div> 
   `;
 };
 
